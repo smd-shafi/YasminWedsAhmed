@@ -96,14 +96,7 @@ const CoupleSection = () => {
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
             </div>
-            <motion.div
-              className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[85%] text-center bg-white/95 backdrop-blur-md py-3 px-4 rounded-2xl border-2 border-gold/30 shadow-xl"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1 }}
-            >
-              <h3 className="font-script text-3xl text-emerald-dark font-bold m-0 leading-none">Mecca</h3>
-            </motion.div>
+
           </motion.div>
 
           {/* Center Heart */}
@@ -136,14 +129,7 @@ const CoupleSection = () => {
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
             </div>
-            <motion.div
-              className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[85%] text-center bg-white/95 backdrop-blur-md py-3 px-4 rounded-2xl border-2 border-gold/30 shadow-xl"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1 }}
-            >
-              <h3 className="font-script text-3xl text-emerald-dark font-bold m-0 leading-none">Medina</h3>
-            </motion.div>
+
           </motion.div>
         </div>
       </div>
