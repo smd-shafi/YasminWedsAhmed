@@ -15,17 +15,9 @@ const CoupleSection = () => {
     <section className="relative min-h-screen flex items-center justify-center py-20 overflow-hidden bg-gradient-to-b from-cream via-gold-light/20 to-cream background-tint">
 
       {/* 🌹 Rose Strings for Corners */}
-      <div className="hidden md:block">
+      <div className="block z-50 pointer-events-none">
         <RoseString position="left" />
         <RoseString position="right" />
-      </div>
-
-      {/* 🌸 Floral Corners for Mobile */}
-      <div className="md:hidden">
-        <CornerFrame position="top-left" />
-        <CornerFrame position="top-right" />
-        <CornerFrame position="bottom-left" />
-        <CornerFrame position="bottom-right" />
       </div>
 
       {/* Decorative Islamic Geometric Pattern Background */}
@@ -110,8 +102,7 @@ const CoupleSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 }}
             >
-              <h3 className="font-script text-3xl text-emerald-dark font-bold">Mecca</h3>
-              <p className="font-body text-[0.65rem] text-emerald-dark font-bold tracking-widest uppercase mt-1">Masjid al-Haram</p>
+              <h3 className="font-script text-3xl text-emerald-dark font-bold m-0 leading-none">Mecca</h3>
             </motion.div>
           </motion.div>
 
@@ -151,8 +142,7 @@ const CoupleSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 }}
             >
-              <h3 className="font-script text-3xl text-emerald-dark font-bold">Medina</h3>
-              <p className="font-body text-[0.65rem] text-emerald-dark font-bold tracking-widest uppercase mt-1">Masjid an-Nabawi</p>
+              <h3 className="font-script text-3xl text-emerald-dark font-bold m-0 leading-none">Medina</h3>
             </motion.div>
           </motion.div>
         </div>
